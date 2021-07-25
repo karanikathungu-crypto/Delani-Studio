@@ -1,0 +1,17 @@
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+#first-section{
+  background-image: url("../images/homesection.jpg");
+}
+#second-section{
+background-image: url();
+}
+#third-section{
+background-image: url();
+}
+#fourth-section{
+background-image: url();
+}
