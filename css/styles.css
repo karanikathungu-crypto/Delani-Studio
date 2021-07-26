@@ -63,9 +63,15 @@ background-image: unset;
   margin-left: 2px;
   margin-right: 2px;
 }
-.details{
-  display: none;
+#detailsOne{
+display: none;
 }
-#imageText{
+#detailsTwo{
+display: none;
+}
+#detailsThree{
+display: none;
+}
+/* .imageText{
   background-color: red;
-}
+} */
