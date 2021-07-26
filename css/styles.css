@@ -1,17 +1,64 @@
 
 body{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 30px;
+  text-align: center;
 }
+
 #first-section{
   background-image: url("../images/homesection.jpg");
+  height:100%;
+  color:#e9f1f3;
 }
+
 #second-section{
-background-image: url();
+background-image: unset;
 }
+
 #third-section{
-background-image: url();
+  background-image: url("../images/services.jpg");
+  height: 100%;
+  color:#e9f1f3;
 }
+
 #fourth-section{
-background-image: url();
+
+}
+
+#fifth-section{
+
+}
+#sixth-section{
+  background-image: url("../images/contact.jpg");
+  height: 100%;
+  color:#e9f1f3;
+}
+#contact-Form{
+  background-color: transparent;
+}
+#nameInput{
+  border: 1px solid grey;
+  padding:3px;
+}
+#emailInput{
+  border: 1px solid grey;
+  padding:3px;
+}
+/* #portfolio{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+} */
+.col-md-3 {
+  margin-top: 8px;
+  vertical-align: middle;
+  padding:0 4px;
+}
+.col-md-3 img{
+  padding: 4px;
+  padding-top: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+  margin-left: 4px;
+  margin-right: 4px;
 }
