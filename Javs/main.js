@@ -5,9 +5,14 @@
 
 
 $(document).ready(function(){
-  $(".imageText").click(function(){
-    $(".details").toggle();
-
+  $("#imageTextOne").click(function(){
+    $("#detailsOne").toggle();
+  });
+  $("#imageTextTwo").click(function(){
+    $("#detailsTwo").toggle();
+  });
+  $("#imageTextThree").click(function(){
+    $("#detailsThree").toggle();
   });
 
 
