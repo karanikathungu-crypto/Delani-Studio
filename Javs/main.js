@@ -14,7 +14,62 @@ $(document).ready(function(){
   $("#imageTextThree").click(function(){
     $("#detailsThree").toggle();
   });
-
-
-
+})
+$(document).ready(function(){
+  $("#imageOne")
+  .mouseenter(function(){
+    $("#pImageOne").show();
+  })
+  .mouseleave(function(){
+    $("#pImageOne").hide();
+  });
+  $("#imageTwo")
+  .mouseenter(function(){
+    $("#pImageTwo").show();
+  })
+  .mouseleave(function(){
+    $("#pImageTwo").hide();
+  });
+  $("#imageThree")
+  .mouseenter(function(){
+    $("#pImageThree").show();
+  })
+  .mouseleave(function(){
+    $("#pImageThree").hide();
+  });
+  $("#imageFour")
+  .mouseenter(function(){
+    $("#pImageFour").show();
+  })
+  .mouseleave(function(){
+    $("#pImageFour").hide();
+  });
+  $("#imageFive")
+  .mouseenter(function(){
+    $("#pImageFive").show();
+  })
+  .mouseleave(function(){
+    $("#pImageFive").hide();
+  });
+  $("#imageSix")
+  .mouseenter(function(){
+    $("#pImageSix").show();
+  })
+  .mouseleave(function(){
+    $("#pImageSix").hide();
+  });
+  $("#imageSeven")
+  .mouseenter(function(){
+    $("#pImageSeven").show();
+  })
+  .mouseleave(function(){
+    $("#pImageSeven").hide();
+  });
+  $("#imageEight")
+  .mouseenter(function(){
+    $("#pImageEight").show();
+  })
+  .mouseleave(function(){
+    $("#pImageEight").hide();
+  });
 })
