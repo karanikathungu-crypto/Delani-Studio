@@ -46,18 +46,23 @@ background-image: unset;
   background-color: transparent;
 }
 #nameInput{
-  border: 1px solid grey;
+  border: 2px solid #e9f1f3;
   padding:3px;
+  background:transparent;
+  color:#e9f1f3;
 }
 #emailInput{
-  border: 1px solid grey;
+  border: 2px solid #e9f1f3;
   padding:3px;
+  background:transparent;
+  color:#e9f1f3;
 }
-/* #portfolio{
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-} */
+#comment{
+  border: 2px solid ;
+  padding-bottom: 10px;
+  background:transparent;
+  color:#e9f1f3;
+}
 .col-md-3 {
   margin-top: 10px;
   vertical-align: middle;
@@ -80,7 +85,9 @@ display: none;
 #detailsThree{
 display: none;
 }
-
-/* .imageText{
-  background-color: red;
-} */
+#submit{
+  border: 1px solid ;
+  border-radius: 6px;
+  background-color:#2596be;
+  color:#e9f1f3;
+}
