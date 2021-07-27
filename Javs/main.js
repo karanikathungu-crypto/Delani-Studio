@@ -1,9 +1,4 @@
 //business logic
-//api for getting emails and displaying text
-
-
-
-
 $(document).ready(function(){
   $("#imageTextOne").click(function(){
     $("#detailsOne").toggle();
@@ -73,3 +68,10 @@ $(document).ready(function(){
     $("#pImageEight").hide();
   });
 })
+//user interface logic
+const userForm= document.querySelector("#contact-Form");
+userForm.addEventListener('submit',onSubmit);
+function onSubmit(e){
+  e.preventDefault();
+  alert("Thank you for submitting your details we will communicate with you shortly");
+}
