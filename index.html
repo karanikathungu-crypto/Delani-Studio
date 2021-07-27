@@ -160,11 +160,13 @@
           <div id = "sixth-section">
             <h1>CONTACT US</h1>
             <form id="contact-Form">
-            <input id= "nameInput" type = "text" name="Name" value="Name">
-            <input id= "emailInput" type = "email" name="Email" value="Email"><br><br>
-            <textarea cols="40" rows="10">
+            <input id= "nameInput" type = "text" name="Name" value="Name" required>
+            <input id= "emailInput" type = "email" name="Email" value="Email" required><br><br>
+            <textarea id="comment" cols="40" rows="7">
               Your message here
-            </textarea>
+            </textarea><br>
+            <!--<button id="submit" type="button" class="btn btn-info">Submit</button>-->
+            <input id="submit" type="submit" value="submit">
             </form>
           </div>
         </div>
