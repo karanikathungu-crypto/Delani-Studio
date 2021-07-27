@@ -4,12 +4,19 @@ body{
   font-size: 30px;
   text-align: center;
   line-height: 1.5;
+  width: 100%;
 }
 
 #first-section{
   background-image: url("../images/homesection.jpg");
-  height:100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment:scroll;
+  background-size: 100% 100%;
+  width:100%;
   color:#e9f1f3;
+  padding-bottom: 100px;
+  padding-top: 500px;
 }
 
 #second-section{
@@ -21,14 +28,15 @@ background-image: unset;
   height: 100%;
   color:#e9f1f3;
 }
-
-#fourth-section{
-
+#pImageOne, #pImageTwo, #pImageThree, #pImageFour, #pImageFive, #pImageSix, #pImageSeven, #pImageEight{
+  width:150px;
+  height:100px;
+  margin:auto;
+  padding:50px;
+  border:7px solid #e9f1f3;
+  display:none;
 }
 
-#fifth-section{
-
-}
 #sixth-section{
   background-image: url("../images/contact.jpg");
   height: 100%;
@@ -72,6 +80,7 @@ display: none;
 #detailsThree{
 display: none;
 }
+
 /* .imageText{
   background-color: red;
 } */
